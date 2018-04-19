@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070BCD5E207F4A470034A09C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 070BCD5D207F4A470034A09C /* AppDelegate.m */; };
+		070BCD61207F4A470034A09C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070BCD60207F4A470034A09C /* ViewController.m */; };
+		070BCD64207F4A470034A09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD62207F4A470034A09C /* Main.storyboard */; };
+		070BCD66207F4A480034A09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD65207F4A480034A09C /* Assets.xcassets */; };
+		070BCD69207F4A480034A09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD67207F4A480034A09C /* LaunchScreen.storyboard */; };
+		070BCD6C207F4A480034A09C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 070BCD6B207F4A480034A09C /* main.m */; };
+		070BCD77207F4A7F0034A09C /* LKOpenGLMetalBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 070BCD73207F4A7F0034A09C /* LKOpenGLMetalBridge.m */; };
+		070BCD78207F4A7F0034A09C /* LKOpenGLMetalBridge.vs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD74207F4A7F0034A09C /* LKOpenGLMetalBridge.vs */; };
+		070BCD79207F4A7F0034A09C /* LKOpenGLMetalBridge.fs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD76207F4A7F0034A09C /* LKOpenGLMetalBridge.fs */; };
+		070BCD7C207F4FE40034A09C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070BCD7B207F4FE40034A09C /* CoreVideo.framework */; };
+		070BCD7E207F4FE90034A09C /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070BCD7D207F4FE90034A09C /* OpenGLES.framework */; };
+		070BCD80207F4FEF0034A09C /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070BCD7F207F4FEF0034A09C /* Metal.framework */; };
+		070BCD87207F53720034A09C /* test0.vs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD85207F53720034A09C /* test0.vs */; };
+		070BCD88207F53720034A09C /* test0.fs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD86207F53720034A09C /* test0.fs */; };
+		070BCD8B207F581C0034A09C /* test1.vs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD89207F581B0034A09C /* test1.vs */; };
+		070BCD8C207F581C0034A09C /* test1.fs in Resources */ = {isa = PBXBuildFile; fileRef = 070BCD8A207F581C0034A09C /* test1.fs */; };
+		070BCD8E207F93F60034A09C /* test3.metal in Sources */ = {isa = PBXBuildFile; fileRef = 070BCD8D207F93F60034A09C /* test3.metal */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		070BCD59207F4A470034A09C /* LKOpenGLMetalBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKOpenGLMetalBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		070BCD5C207F4A470034A09C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		070BCD5D207F4A470034A09C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		070BCD5F207F4A470034A09C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		070BCD60207F4A470034A09C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		070BCD63207F4A470034A09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		070BCD65207F4A480034A09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		070BCD68207F4A480034A09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		070BCD6A207F4A480034A09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		070BCD6B207F4A480034A09C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		070BCD73207F4A7F0034A09C /* LKOpenGLMetalBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKOpenGLMetalBridge.m; sourceTree = "<group>"; };
+		070BCD74207F4A7F0034A09C /* LKOpenGLMetalBridge.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LKOpenGLMetalBridge.vs; sourceTree = "<group>"; };
+		070BCD75207F4A7F0034A09C /* LKOpenGLMetalBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKOpenGLMetalBridge.h; sourceTree = "<group>"; };
+		070BCD76207F4A7F0034A09C /* LKOpenGLMetalBridge.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = LKOpenGLMetalBridge.fs; sourceTree = "<group>"; };
+		070BCD7B207F4FE40034A09C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		070BCD7D207F4FE90034A09C /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		070BCD7F207F4FEF0034A09C /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		070BCD85207F53720034A09C /* test0.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test0.vs; sourceTree = "<group>"; };
+		070BCD86207F53720034A09C /* test0.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test0.fs; sourceTree = "<group>"; };
+		070BCD89207F581B0034A09C /* test1.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test1.vs; sourceTree = "<group>"; };
+		070BCD8A207F581C0034A09C /* test1.fs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = test1.fs; sourceTree = "<group>"; };
+		070BCD8D207F93F60034A09C /* test3.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = test3.metal; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070BCD56207F4A470034A09C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070BCD80207F4FEF0034A09C /* Metal.framework in Frameworks */,
+				070BCD7E207F4FE90034A09C /* OpenGLES.framework in Frameworks */,
+				070BCD7C207F4FE40034A09C /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070BCD50207F4A460034A09C = {
+			isa = PBXGroup;
+			children = (
+				070BCD5B207F4A470034A09C /* LKOpenGLMetalBridge */,
+				070BCD5A207F4A470034A09C /* Products */,
+				070BCD7A207F4FE40034A09C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		070BCD5A207F4A470034A09C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070BCD59207F4A470034A09C /* LKOpenGLMetalBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070BCD5B207F4A470034A09C /* LKOpenGLMetalBridge */ = {
+			isa = PBXGroup;
+			children = (
+				070BCD85207F53720034A09C /* test0.vs */,
+				070BCD86207F53720034A09C /* test0.fs */,
+				070BCD89207F581B0034A09C /* test1.vs */,
+				070BCD8A207F581C0034A09C /* test1.fs */,
+				070BCD8D207F93F60034A09C /* test3.metal */,
+				070BCD72207F4A580034A09C /* LKOpenGLMetalBridge */,
+				070BCD5C207F4A470034A09C /* AppDelegate.h */,
+				070BCD5D207F4A470034A09C /* AppDelegate.m */,
+				070BCD5F207F4A470034A09C /* ViewController.h */,
+				070BCD60207F4A470034A09C /* ViewController.m */,
+				070BCD62207F4A470034A09C /* Main.storyboard */,
+				070BCD65207F4A480034A09C /* Assets.xcassets */,
+				070BCD67207F4A480034A09C /* LaunchScreen.storyboard */,
+				070BCD6A207F4A480034A09C /* Info.plist */,
+				070BCD6B207F4A480034A09C /* main.m */,
+			);
+			path = LKOpenGLMetalBridge;
+			sourceTree = "<group>";
+		};
+		070BCD72207F4A580034A09C /* LKOpenGLMetalBridge */ = {
+			isa = PBXGroup;
+			children = (
+				070BCD74207F4A7F0034A09C /* LKOpenGLMetalBridge.vs */,
+				070BCD76207F4A7F0034A09C /* LKOpenGLMetalBridge.fs */,
+				070BCD75207F4A7F0034A09C /* LKOpenGLMetalBridge.h */,
+				070BCD73207F4A7F0034A09C /* LKOpenGLMetalBridge.m */,
+			);
+			path = LKOpenGLMetalBridge;
+			sourceTree = "<group>";
+		};
+		070BCD7A207F4FE40034A09C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				070BCD7F207F4FEF0034A09C /* Metal.framework */,
+				070BCD7D207F4FE90034A09C /* OpenGLES.framework */,
+				070BCD7B207F4FE40034A09C /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		070BCD58207F4A470034A09C /* LKOpenGLMetalBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070BCD6F207F4A480034A09C /* Build configuration list for PBXNativeTarget "LKOpenGLMetalBridge" */;
+			buildPhases = (
+				070BCD55207F4A470034A09C /* Sources */,
+				070BCD56207F4A470034A09C /* Frameworks */,
+				070BCD57207F4A470034A09C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKOpenGLMetalBridge;
+			productName = LKOpenGLMetalBridge;
+			productReference = 070BCD59207F4A470034A09C /* LKOpenGLMetalBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070BCD51207F4A460034A09C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = lingtonke;
+				TargetAttributes = {
+					070BCD58207F4A470034A09C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 070BCD54207F4A460034A09C /* Build configuration list for PBXProject "LKOpenGLMetalBridge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 070BCD50207F4A460034A09C;
+			productRefGroup = 070BCD5A207F4A470034A09C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070BCD58207F4A470034A09C /* LKOpenGLMetalBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		070BCD57207F4A470034A09C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070BCD87207F53720034A09C /* test0.vs in Resources */,
+				070BCD88207F53720034A09C /* test0.fs in Resources */,
+				070BCD69207F4A480034A09C /* LaunchScreen.storyboard in Resources */,
+				070BCD78207F4A7F0034A09C /* LKOpenGLMetalBridge.vs in Resources */,
+				070BCD66207F4A480034A09C /* Assets.xcassets in Resources */,
+				070BCD8B207F581C0034A09C /* test1.vs in Resources */,
+				070BCD79207F4A7F0034A09C /* LKOpenGLMetalBridge.fs in Resources */,
+				070BCD64207F4A470034A09C /* Main.storyboard in Resources */,
+				070BCD8C207F581C0034A09C /* test1.fs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070BCD55207F4A470034A09C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070BCD77207F4A7F0034A09C /* LKOpenGLMetalBridge.m in Sources */,
+				070BCD61207F4A470034A09C /* ViewController.m in Sources */,
+				070BCD6C207F4A480034A09C /* main.m in Sources */,
+				070BCD8E207F93F60034A09C /* test3.metal in Sources */,
+				070BCD5E207F4A470034A09C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		070BCD62207F4A470034A09C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070BCD63207F4A470034A09C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		070BCD67207F4A480034A09C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				070BCD68207F4A480034A09C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		070BCD6D207F4A480034A09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		070BCD6E207F4A480034A09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		070BCD70207F4A480034A09C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = LKOpenGLMetalBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lingtonke.LKOpenGLMetalBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		070BCD71207F4A480034A09C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSGBMMMZ4T;
+				INFOPLIST_FILE = LKOpenGLMetalBridge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lingtonke.LKOpenGLMetalBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070BCD54207F4A460034A09C /* Build configuration list for PBXProject "LKOpenGLMetalBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070BCD6D207F4A480034A09C /* Debug */,
+				070BCD6E207F4A480034A09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070BCD6F207F4A480034A09C /* Build configuration list for PBXNativeTarget "LKOpenGLMetalBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070BCD70207F4A480034A09C /* Debug */,
+				070BCD71207F4A480034A09C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070BCD51207F4A460034A09C /* Project object */;
+}
