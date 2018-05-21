@@ -51,7 +51,7 @@
     self.device = MTLCreateSystemDefaultDevice();
     self.mtlLayer.device = self.device;
     self.vertexBuffer = [self.device newBufferWithBytes:vertice1 length:8*sizeof(GLfloat) options:MTLResourceOptionCPUCacheModeDefault];
-    self.library = [self.device newde]
+    //self.library = [self.device newde]
     
     [self drawOpenGL];
     [self drawMetal];
